@@ -66,13 +66,12 @@ The dashboard allows users to:
 
 ## 📁 Project Structure
 
-project/
+/project
 │── app.py
 │── analysis.py
 │── data_cleaner.py
 │── data_loader.py
 │── visualizer.py
-│── geo.py
 │── data/
 │── plots/
 │── requirements.txt
