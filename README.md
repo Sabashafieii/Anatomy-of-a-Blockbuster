@@ -65,18 +65,20 @@ The dashboard allows users to:
 ---
 
 ## 📁 Project Structure
-
+```
 /project
-│── app.py
-│── analysis.py
-│── data_cleaner.py
-│── data_loader.py
-│── visualizer.py
-│── data/
-│── plots/
-│── requirements.txt
-│── README.md
-
+ /src
+    │── streamlit_app.py
+    │── analysis.py
+    │── data_cleaner.py
+    │── data_loader.py
+    │── visualizer.py
+ /data
+    │──movies_metadata.csv
+ │── .gitignore
+ │── requirements.txt
+ │── README.md
+```
 ## 🛠️ Tech Stack
 
 - Python 3.10+  
@@ -98,6 +100,7 @@ streamlit run app.py
 Place movies_metadata.csv into:
 
 data/movies_metadata.csv
+```
 ## 🧪 Version Control
 
 - [ ] .gitignore configured (cache files, large data, pycache excluded)
