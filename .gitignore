@@ -1,0 +1,66 @@
+# ============================
+# Python cache & artifacts
+# ============================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.pickle
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Jupyter & notebook junk
+.ipynb_checkpoints/
+*.ipynb
+
+# ============================
+# Streamlit cache
+# ============================
+.streamlit/
+**/.streamlit/
+**/cache/
+**/cache/*
+
+# ============================
+# OS-specific files
+# ============================
+.DS_Store
+Thumbs.db
+
+# ============================
+# Logs & temp files
+# ============================
+*.log
+*.tmp
+*.temp
+
+# ============================
+# Data files (raw, large)
+# ============================
+data/*.csv
+data/*.json
+data/*.parquet
+data/*.xlsx
+
+# Keep only cleaned or small sample data
+!data/README.md
+
+# ============================
+# Plot images (optional)
+# ============================
+plots/*.png
+plots/*.jpg
+plots/*.svg
+
+# ============================
+# Environment & dependency files
+# ============================
+*.env
+.env.*
+
+# Ignore VSCode settings (optional)
+.vscode/
